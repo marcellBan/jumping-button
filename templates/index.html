@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ask a question</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <form action="/the-question">
+    <label for="question">Give me a question</label><br>
+    <input name="question" id="question" type="text" required><br>
+    <label for="answer">Set the only answer</label><br>
+    <select name="answer" id="answer">
+      <option value="Yes" selected>Yes</option>
+      <option value="No">No</option>
+    </select><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

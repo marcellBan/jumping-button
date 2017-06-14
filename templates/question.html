@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <h1>{{ question }}</h1>
+  {% if answer %}
+    <button value="good" id="yes">Yes</button>
+    <button id="no">No</button>
+  {% else %}
+    <button id="yes">Yes</button>
+    <button value="good" id="no">No</button>
+  {% endif %}
+  <script src="/static/js/main.js" defer></script>
+</body>
+</html>
